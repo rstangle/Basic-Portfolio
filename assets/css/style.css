@@ -76,23 +76,10 @@ section {
 	border: solid 1px #dddddd;
 }
 
-article {
-	position: absolute;
-	top: 10px;
-	left: 10px;
-	right: 10px;
-	padding-top: 20px;
-	padding-left: 10px;
-	color: #ebebeb;
-	background: #ffffff;
-	width: 92%;
-	clear: both;
-}
-
 aside {
 	float: right;
 	position: relative;
-	padding: 50px;
+	padding: 50px 15px 0px 25px;
 	margin: 50px 0px;
 	background: #ffffff;
 	width: 270px;
@@ -158,6 +145,10 @@ h2 {
 }
 
 h4 {
+	position: absolute;
+	top: 20px;
+	left: 30px;
+	right: 30px;
 	font-family: Georgia, Times, 'Times New Roman', serif;
 	font-size: 12pt;
 	background: white;
@@ -165,7 +156,7 @@ h4 {
 	text-align: left;
 	font-weight: bold;
 	border-bottom: solid #dddddd 1px;
-	width: 95%;
+	width: 75%;
 }
 
 .profile-pic {
@@ -183,6 +174,7 @@ position: relative;
 
 .connect-icons {
 	float: left;
+	display: inline;
 	width: 55px;
 	height: 55px;
 	margin: 15px 10px;
@@ -285,3 +277,45 @@ a:hover {
 a:active {
     color: #4aaaa5;
 }
+
+
+/*Social Media Icon Rollovers - Can't get them to work right*/
+/*
+.icon-container {
+    position: relative;
+    width: 50%;
+}
+
+.icon-image {
+  opacity: 1;
+  display: block;
+  width: 55px;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.container:hover .icon-image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 12px;
+  padding: 2px 2px;
+}*/
