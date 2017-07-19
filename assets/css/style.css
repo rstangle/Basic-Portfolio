@@ -73,8 +73,9 @@ section {
 	width: 650px;
 	min-height: 400px;
 	overflow: hidden;
-	clear: both;
-	border: solid 1px #dddddd;
+/*	clear: both;
+*/	border: solid 1px #dddddd;
+	box-shadow: 3px 3px 10px lightgray;
 }
 
 aside {
@@ -86,6 +87,7 @@ aside {
 	width: 270px;
 	height: 150px;
 	border: solid 1px #cccccc;
+	box-shadow: 3px 3px 10px lightgray;
 }
 
 .headline {
