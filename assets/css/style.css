@@ -25,6 +25,7 @@ body {
 
 .wrapper {
 	width: 960px;
+	height: 75px;
 	margin: 0 auto 0 auto;
 }
 
@@ -180,6 +181,10 @@ position: relative;
 	margin: 15px 10px;
 }
 
+.connect-icons:hover {
+	opacity: 0.5;
+}
+
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
@@ -252,6 +257,10 @@ input[type=submit] {
 	font-family: Georgia, Times, 'Times New Roman', serif;
 	clear: both;
  }
+
+.thumbnail-header:hover {
+	background: tomato;
+}
 
 img {
 	max-width: 100%
